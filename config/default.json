@@ -2,5 +2,11 @@
     "api": {
         "port": 8080,
         "tag": "1.0.0"
+    },
+    "mysql": {
+        "database": "api-rapidinho",
+        "user": "root",
+        "password": "",
+        "host": "127.0.0.1"
     }
 }
