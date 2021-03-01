@@ -42,6 +42,14 @@ const columns = {
     type: Sequelize.BOOLEAN,
     defaultValue: true,
   },
+  latitude: {
+    type: Sequelize.DECIMAL(8, 6),
+    allowNull: false,
+  },
+  longitude: {
+    type: Sequelize.DECIMAL(8, 6),
+    allowNull: false,
+  },
 };
 
 const options = {
