@@ -1,0 +1,32 @@
+{
+  "name": "api-rapidinho",
+  "version": "1.0.0",
+  "description": "API para entrega de comidas",
+  "main": "./bin/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./bin/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rodrigordgfs/API-Rapidinho.git"
+  },
+  "author": "Shinoda Labs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rodrigordgfs/API-Rapidinho/issues"
+  },
+  "homepage": "https://github.com/rodrigordgfs/API-Rapidinho#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "config": "^3.3.4",
+    "debug": "^4.3.1",
+    "express": "^4.17.1",
+    "http": "0.0.1-security",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.5.0"
+  }
+}
